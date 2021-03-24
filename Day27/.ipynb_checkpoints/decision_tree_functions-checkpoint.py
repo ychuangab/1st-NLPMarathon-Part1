@@ -315,6 +315,7 @@ class decision_tree():
             return self.sub_tree
         
     def pred(self, example, tree):
+        #print(example)
         # 使用訓練好的決策樹進行預測
         
         #取得分割節點(由上到下)
